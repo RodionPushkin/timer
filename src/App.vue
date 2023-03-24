@@ -75,7 +75,7 @@ onMounted(() => {
         timers.value[i].seconds++
       }
     }
-  }, 1)
+  }, 1000)
 })
 </script>
 
