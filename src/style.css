@@ -5,14 +5,14 @@
 }
 html{
   height: 100vh;
-  width: 100vh;
-  overflow: hidden;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: overlay;
 }
 body{
   width: 100vw;
   min-height: 100vh;
-  overflow-x: hidden;
-  overflow-y: overlay;
+  overflow: hidden;
 }
 @media (min-width: 768px) {
   ::-webkit-scrollbar {
